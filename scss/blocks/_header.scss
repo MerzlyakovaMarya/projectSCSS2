@@ -1,0 +1,79 @@
+.header {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.7vw;
+    margin-left: 15vw;
+    display: inline;}
+ 
+  .header__item {
+    color: black;
+    text-decoration: none;
+    margin-right: 2vw;
+    font-weight: 400;
+  }
+  .header__item:hover {
+    @include color;
+  }
+  .header__item:active {
+    color: rgba(243, 166, 0, 0.952);
+  }
+  
+  .header__item__red {
+    @include color;
+  }
+  .header__item__red:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .header__item__logo {
+    display: float;
+    margin-left: 1vw;
+    margin-right: 12vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+  }
+  .header__item__logo__pic{
+    width: 2.4vw;
+    height: 2.4vw;
+    vertical-align:-0.71vw;
+  }
+  .header__item__pic1{
+    height: 2vh;
+    display: inline;
+    padding-top: 1vh;
+    padding-left: 20vw;
+    width: 1vw;
+    height: 1vw;
+    margin-right: 1vw;
+    vertical-align: -0.2vw;
+  }
+  
+  .header__item__pic2{
+    width: 1vw;
+    height: 1vw;
+    margin-right: 1vw;
+    vertical-align: -0.2vw;
+  }
+  .header__item__pic3{
+    width: 1vw;
+    height: 1vw;
+    margin-right: 0.2vw ;
+    vertical-align: -0.2vw;
+  
+  }
+  .header__item__login{
+    color: white;
+    margin-right: 0.6vh;
+  
+  }
+  .login{
+    display: inline;
+    background-color: red;
+    padding-top: 0.9vh;
+    padding-bottom: 0.9vh;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    border: 2px solid transparent;
+    border-radius: 26px;
+    
+  }
